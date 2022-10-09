@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Week 7 Lab"},
+    "data": {
+      "url": "./data/sample_data.csv"
+    },
+    "mark" : "bar",
+    "encoding": {
+      "x": { "field": "daily_cost", "type": "quantitative" },
+      "y": { "field": "city", "type": "nominal" }
+    }
+    
+  }
